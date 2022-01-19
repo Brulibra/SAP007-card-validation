@@ -3,6 +3,11 @@ h1{
     text-align: left;
 }
 
-.box{
+.input{
+    background-color: red;
     margin: 1px solid black;
+}
+
+.instructions{
+    background-color: green;
 }

@@ -2,12 +2,12 @@ import validator from './validator.js';
 
 console.log(validator);
 
+//let crediCard = document.getElementById("#crediCard").value
+//let number = 
 
-crediCard()
-crediCardNumber()
+// let crediCardNumber = document.write(crediCard)
 
-let crediCard = document.querySelector('#crediCard').value
-
+//alert(crediCard)
 
 //document.getElementById("crediCardNumber").innerHTML = (baseElement.querySelector("id=crediCardNumber").innerHTML)
 

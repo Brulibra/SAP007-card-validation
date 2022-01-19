@@ -7,13 +7,28 @@
   </head>
   <body>
     <div id="root">
-      <h1>Valide seu cartão de crédito</h1>
-      <div> <p>Insira os números do cartão de crédito para continuar a compra<br>
-      (Somos uma empresa séria, não estamos tentando roubar seus dados)</p> </div>
+        <div class = "instructions"> 
+        <h1>Valide seu cartão de crédito</h1>
+        <p>Insira os números do cartão de crédito para continuar a compra<br>
+      (Somos uma empresa séria, não estamos tentando roubar seus dados)</p> 
     </div>
-      <input type="text" name="crediCard" id="crediCard" placeholder="Insira apenas os números">
-      <button type="submit" name="enviar" onclick="crediCardNumber()">Enviar</button>
-      <div class="box" id="crediCardNumber" ></div>
+    <div class="input">
+     <input 
+      type="text" 
+      name="crediCard" 
+      id="crediCard" 
+      placeholder="Insira apenas os números"
+      >
+     <button type="submit" 
+      name="enviar" 
+      onclick="crediCardNumber()"
+      >Enviar</button>
       <script src="index.js" type="module"></script>
+    </div>
+    <div id = "validation">
+      <h2></h2>
+    </div>
+
+    </div>
   </body>
 </html>
