@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
+
+<head>
+  <meta charset="utf-8" />
+
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-        <div class = "instructions"> 
+
+</head>
+
+
+<body onload="addEvents()">
+   <div id="root">
+      <div class="instructions">
         <h1>Valide seu cartão de crédito</h1>
         <p>Insira os números do cartão de crédito para continuar a compra<br>
-      (Somos uma empresa séria, não estamos tentando roubar seus dados)</p> 
-    </div>
+        (Somos uma empresa séria, não estamos tentando roubar seus dados)</p>
+      </div>
+
     <div class="input">
-     <input 
-      type="text" 
-      name="crediCard" 
-      id="crediCard" 
-      placeholder="Insira apenas os números"
-      >
-     <button type="submit" 
-      name="enviar" 
-      onclick="crediCardNumber()"
-      >Enviar</button>
       <script src="index.js" type="module"></script>
+
+      <input type="number" name="crediCard" id="crediCard" placeholder="Insira apenas os números">
+      <input type="submit" name="button" id="button" value="Enviar" maxlength="16">
+      <!--button name="button" type="submit" onclick="crediCard()"--><!--/button-->
+        
+
     </div>
-    <div id = "validation">
+
+    <div class="validation">
       <h2></h2>
     </div>
 
-    </div>
-  </body>
+  </div>
+</body>
+
 </html>

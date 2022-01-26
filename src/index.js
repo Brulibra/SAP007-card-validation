@@ -2,13 +2,18 @@ import validator from './validator.js';
 
 console.log(validator);
 
-//let crediCard = document.getElementById("#crediCard").value
-//let number = 
 
-// let crediCardNumber = document.write(crediCard)
+function crediCard() {
+    alert("olá")
+}
 
-//alert(crediCard)
+function addEvents() {
+    document.getElementById("crediCard").addEventListener("click",crediCard())
+}
 
-//document.getElementById("crediCardNumber").innerHTML = (baseElement.querySelector("id=crediCardNumber").innerHTML)
 
-//console.log()
+//let numbers = (crediCard)
+
+//console.log(numbers)
+//document.write("<h2>" + numbers + "<h2>")
+
