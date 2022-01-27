@@ -1,10 +1,10 @@
 import validator from './validator.js';
 
 console.log(validator);
-
+/*
 //Elementos HTML
 let crediCard = document.getElementById("crediCard"); //crediCard busca a string inserida pelo usuário
-let button = document.getElementById("button"); //variável do botão para guardar os dados recebidos
+let button = document.getElementById("button"); //variável do botão para guardar os dados recebidos, nunca chamada...
 
 //Eventos on Click
 document.getElementById("button").addEventListener("click",crediCardNumber) //envia informações inseridas pelo usiário
