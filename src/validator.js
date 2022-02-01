@@ -11,29 +11,31 @@ const button = document.getElementById("button"); //variável do botão para gua
 document.getElementById("button").addEventListener("click",isValid) //envia informações inseridas pelo usuário
 
 //Recupera dados inseridos pelo usuário (let escopo local)
-function isValid(value) {
+function isValid() {
    let valorInput = crediCard.value;
-   let stringToNumber = parseInt(valorInput,10); //e converte de string para número
-    console.log(stringToNumber)
+   console.log(valorInput, typeof valorInput)
     
-   //slice -> dividir elementos antes de converter em array, talvez antes de converter em number
-  
    //transformar valor em array
-  let arrayCardNumber = function(num){
+   let arrayCardNumber = function(num){
     return Array.from(num).reverse() //.join('') junta os elementos do array, usar no final
-    }
-   console.log(arrayCardNumber(stringToNumber)); 
-
+   }
+   
   //variável para guardar a os valores em array
-  let arrayCard = arrayCardNumber(stringToNumber);
+  let arrayCard = arrayCardNumber(valorInput);
   console.log(arrayCard)
 
-  //Laço do Algorítimo de Luhn
+  //Laço do Algoritmo de Luhn [CORRIGIR] if esta(va) funcionando com string, corrigir para number
   for (let i=0; i<arrayCard.length; i++) {
-    let indice = arrayCard.indexOf(i !== -1 ); //percorre os indices da array?
-    let array = arrayCard[indice];
-       if (array % 2 == 1){
-          alert("funcionou")
+     
+      let cardNumber = arrayCard.map(Number) //map chama a func. callback dos elementos da array, ignora valores NaN
+      let index = arrayCard[cardNumber]
+      console.log(index, typeof index, typeof cardNumber) //está percorrendo a array
+    
+      if (index % 2 == 1){
+         /*(parseInt(i))*2
+         //alert("funcionou")
+         */
+         console.log(index, typeof index)
       }
    }
 }
