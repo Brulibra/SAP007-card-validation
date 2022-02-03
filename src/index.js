@@ -1,26 +1,27 @@
 import validator from './validator.js';
 
 console.log(validator);
+//Elementos do HTML - botão (const escopo global)
+const button = document.getElementById("button"); //variável do botão para guardar os dados recebidos
 
-//Elementos do HTML (const escopo global)
-const crediCard = document.getElementById("crediCard"); //crediCard busca a string inserida pelo usuário
-const button = document.getElementById("button"); //variável do botão para guardar os dados recebidos, nunca chamada...
+function algoritimoLuhn() {
 
-//Eventos on Click
-button.addEventListener("click", isValid()) //envia informações inseridas pelo usuário
-
-/*function crediCardNumber() {
-    let input = crediCard.value;
-    console.log(input)
-}
-
-/*function printOnScreen(crediCard) {
-    document.write(`<h2>` + `${crediCard}` + `<h2>`) //inner HTML?? ("<h2>" + numbers + "<h2>") 
+    let crediCard = document.getElementById("crediCard").value //crediCard busca a string inserida pelo usuário
+    let callingValidator = validator.isValid(crediCard)
+    let validationOnScreen = document.getElementById("validation")
+    if (callingValidator === true) {
+        validationOnScreen.textContent = "Cartão Válido"
+    } else {
+        validationOnScreen.textContent = "Cartão Inválido"
     }
-    Por resolver ainda
-    */
+}
+//Eventos on Click
+button.addEventListener("click", algoritimoLuhn) //inicia o algoritmo de Luhn
 
 
+//4083952015263 - true
+//79927398713 - true
+//1234567890 - false
 
 
 
