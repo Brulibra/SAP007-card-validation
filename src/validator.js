@@ -6,7 +6,7 @@ const validator = {
 
       //transformar valor em array
       let arrayCardNumber = function (num) {
-         return Array.from(num).reverse() //.join('') junta os elementos do array, usar no final
+         return Array.from(num).reverse()
       }
 
       //variável para guardar a os valores em array
@@ -22,7 +22,7 @@ const validator = {
 
          if (i % 2 != 0) {
             let numMultiply = numCardi * 2 // multiplica por 2 nº da posição par
-                       
+
 
             if (numMultiply > 9) {
                numMultiply = numMultiply - 9
@@ -36,13 +36,21 @@ const validator = {
          } else {
             totalValor = totalValor + numCardi
          }
-         if (totalValor % 10 === 0) {
-            return true
+      } if (totalValor % 10 === 0) {
+         return true
 
-         } else {
-            return false
-         }
+      } else {
+         return false
       }
+   },
+   maskify: function (crediCard) {
+      let last4Numbers = crediCard.substr(-4);
+      let maskingNumbers = crediCard.substr(0, crediCard.length - 4)
+
+      //guardar string para então fazer o replace
+      let maskOnScreen = maskingNumbers.replace(maskingNumbers, "#") //está substituindo tudo por 1 #
+      return maskOnScreen + last4Numbers
    }
 }
+
 export default validator

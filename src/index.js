@@ -8,9 +8,12 @@ function algoritimoLuhn() {
 
     let crediCard = document.getElementById("crediCard").value //crediCard busca a string inserida pelo usuário
     let callingValidator = validator.isValid(crediCard)
+    let callingMaskify = validator.maskify(crediCard)
+
     let validationOnScreen = document.getElementById("validation")
-    if (callingValidator === true) {
-        validationOnScreen.textContent = "Cartão Válido"
+        if (callingValidator === true) {
+            validationOnScreen.textContent = callingMaskify
+            
     } else {
         validationOnScreen.textContent = "Cartão Inválido"
     }
