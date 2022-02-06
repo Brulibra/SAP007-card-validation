@@ -28,7 +28,7 @@ const validator = {
                numMultiply = numMultiply - 9
                totalValor = totalValor + numMultiply
 
-               console.log("entrou no if")
+               //console.log("entrou no if")
 
             } else {
                totalValor = totalValor + numMultiply
@@ -44,13 +44,23 @@ const validator = {
       }
    },
    maskify: function (crediCard) {
-      let last4Numbers = crediCard.substr(-4);
-      let maskingNumbers = crediCard.substr(0, crediCard.length - 4)
+         
+      //guardar string dos primeiros dígitos
+      let maskingNumbers = crediCard.substr(0, crediCard.length)
 
-      //guardar string para então fazer o replace
-      let maskOnScreen = maskingNumbers.replace(maskingNumbers, "#") //está substituindo tudo por 1 #
-      return maskOnScreen + last4Numbers
+      for (let i= 0; i < maskingNumbers; i++){
+         let maskOnScreen = maskingNumbers.replace(/\d(?=\d{4})/g, "#") //parâmetros "/\d(?=\d{4})/g" em stack overflow
+         return maskOnScreen
+      }
+      return
+     
    }
 }
 
 export default validator
+
+/*Explanation:
+
+--> This reges uses a positive lookahead (?=\d{4}) which means match should be followed by 4 digits.
+--> \d matches a single digit with above lookahead condition and replaces that by #
+*/
