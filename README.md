@@ -3,12 +3,12 @@
 ## Índice
 
 - [1. Sobre o projeto](#sobre-o-projeto)
-  - [a. O Algoritmo de Luhn](#o-algoritmo-de-luhn)
-  - [b. Inspiração do projeto](#inspira%C3%A7%C3%A3o-do-projeto)
+  - [O Algoritmo de Luhn](#o-algoritmo-de-luhn)
+  - [Inspiração do projeto](#inspira%C3%A7%C3%A3o-do-projeto)
 - [2. Proposta](#proposta)
-  - [a.Texto](#texto)
-  - [b.Layout versão final](#layout-vers%C3%A3o-final)
-- [Autora](#autora)
+  - [Texto](#texto)
+  - [Layout versão final](#layout-vers%C3%A3o-final)
+- [3. Autora](#autora)
 
 ## Sobre o projeto
 O **Verificador de Celulares Galácticos** foi desenvolvido como parte do *bootcamp* 007 da Laboratória. 
@@ -16,16 +16,12 @@ O **Verificador de Celulares Galácticos** foi desenvolvido como parte do *bootc
 O objetivo do projeto era a aplicação do **Algoritmo de Luhn** para validar os números IMEI inseridos pelo usuário.
 ### O Algoritmo de Luhn
 
-<aside>
-💡 “O **algoritmo** Luhn ou **fórmula Luhn** , também conhecido como o algoritmo " [módulo](https://en.wikipedia.org/wiki/Algorithm) [10](https://en.wikipedia.org/wiki/Modular_arithmetic)" ou "mod 10" , em homenagem ao seu criador, o cientista da [IBM](https://en.wikipedia.org/wiki/IBM) [Hans Peter Luhn](https://en.wikipedia.org/wiki/Hans_Peter_Luhn) , é uma fórmula simples de [soma](https://en.wikipedia.org/wiki/Checksum) de verificação usada para validar uma variedade de números de identificação, como [crédito números de cartão](https://en.wikipedia.org/wiki/Payment_card_number) , números [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), ...”
+💡 “O **algoritmo** Luhn ou **fórmula Luhn** , também conhecido como o algoritmo "[módulo](https://en.wikipedia.org/wiki/Algorithm) [10](https://en.wikipedia.org/wiki/Modular_arithmetic)" ou "mod 10" , em homenagem ao seu criador, o cientista da [IBM](https://en.wikipedia.org/wiki/IBM) [Hans Peter Luhn](https://en.wikipedia.org/wiki/Hans_Peter_Luhn) , é uma fórmula simples de [soma](https://en.wikipedia.org/wiki/Checksum) de verificação usada para validar uma variedade de números de identificação, como [crédito números de cartão](https://en.wikipedia.org/wiki/Payment_card_number) , números [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), ...”
 
-</aside>
 
-<aside>
 💡 “O algoritmo é [de domínio público](https://en.wikipedia.org/wiki/Public_domain) e está em amplo uso hoje. É especificado na [ISO/IEC 7812](https://en.wikipedia.org/wiki/ISO/IEC_7812) -1. Não se destina a ser uma função de [hash criptograficamente segura](https://en.wikipedia.org/wiki/Cryptographic_hash_function) ; ele foi projetado para proteger contra erros acidentais, não contra ataques maliciosos. A maioria dos cartões de crédito e muitos números de identificação do governo usam o algoritmo como um método simples de distinguir números válidos de números digitados incorretamente ou incorretos.”
 
-</aside>
-Retirado de **[Luhn algorithm](https://en.wikipedia.org/w/index.php?title=Luhn_algorithm&oldid=1070463961)**, Wikipédia, a enciclopédia livre.
+Retirado de [Luhn algorithm](https://en.wikipedia.org/w/index.php?title=Luhn_algorithm&oldid=1070463961) , em Wikipédia, a enciclopédia livre.
 
 ### Inspiração do projeto
 
@@ -52,13 +48,13 @@ Estamos recebendo um número alarmante de denúncias de comunicadores roubados e
 ### Layout versão final
 
 
-Página inicial
+![Página inicial](https://github.com/Brulibra/SAP007-card-validation/blob/main/src/img/Origem.png)
 
 
-Inserção de nº válido
+![Inserção de nº válido](https://github.com/Brulibra/SAP007-card-validation/blob/main/src/img/N%C3%BAmero%20V%C3%A1lido.png)
 
 
-Inserção de nº inválido
+![Inserção de nº inválido](https://github.com/Brulibra/SAP007-card-validation/blob/main/src/img/N%C3%BAmero%20Inv%C3%A1lido.png)
 
 ## Autora
 
