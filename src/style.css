@@ -10,7 +10,22 @@ body{
 
 }
 .instructions{
-    width: 80%;
+    display: inline-block;
+    width: 50%;
+    
+}
+
+.input{
+    display: inline-block;
+    position: absolute;
+
+    top: 40%;
+    bottom: 50%;
+    left: 51%;
+    margin: 10px;
+    border: 15px;
+    margin-left: 60px;
+    
 }
 
 h1{
@@ -25,8 +40,7 @@ p{
     color: white;
     text-align: justify;
     font-size: 20px;
-    width: 50%;
-}
+    }
 
 .Logo42{
     align-content: center;
@@ -51,7 +65,7 @@ p{
     
     padding: 0;
     margin: 5px;
-    margin-top: 55px;
+    margin-top: 65px;
 
     
 }
@@ -74,7 +88,11 @@ p{
     }
 
 .validation{
-    margin-left: 30%;
+    position: relative;
+    margin-top: 130px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
 
 }
 
