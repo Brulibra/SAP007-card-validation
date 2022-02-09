@@ -12,10 +12,10 @@ function algoritimoLuhn() {
 
     let validationOnScreen = document.getElementById("validation")
         if (callingValidator === true) {
-            validationOnScreen.textContent = callingMaskify
+            validationOnScreen.textContent = "Comunicador nº " + callingMaskify + ".  Continue sua viagem tranquilo Mochileiro"
             
     } else {
-        validationOnScreen.textContent = "Cartão Inválido"
+        validationOnScreen.textContent = "Comunicador não encontrado! Verifique novamente suas informações"
     }
 }
 //Eventos on Click

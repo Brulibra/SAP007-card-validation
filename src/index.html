@@ -13,47 +13,47 @@
 <body>
   <div id="root">
 
-    <div class="instructions">
+    <div class="Logo42">
 
-      <img src="img/Logo42.png" height="40%" width="40%" class="Logo42">
-      
-      <h2>Atenção Viajantes!</h2>
+      <img src="img/Logo42.png" height="20%" width="20%">
+    </div>
+
+    <div class="instructions">
+      <h1>Atenção Viajante!</h1>
 
       <p class="textInstructions">Se certifique de que seu comunicador é um dispositivo autorizado!
-        Insira o código IMEI no validador ao lado.<br>
+        <br>Insira o código IMEI no validador ao lado.<br>
+        <p class="fullText">
         Estamos recebendo um número alarmante de denúncias de comunicadores roubados
-        e/ou não autorizados circulando em nossa galáxia,<br>
+        e/ou não autorizados circulando em nossa galáxia,
         para prosseguir tranquilamente com sua viajem,
-        verifique seu dispositivo.</p>
+        verifique seu dispositivo.
+      </p>
 
       <p class="noteTower42">
-        A Tower 42 informa: em caso de furto ou dispositivo inválido, entre em contato com nossa central.
+        <b><u>A Tower 42 informa:</u></b> em caso de furto ou dispositivo inválido, entre em contato com nossa central.
       </p>
 
       <p class="infoIMEI">
-        Não sabe qual seu código de IMEI? Digite *#06# no teclado de seu dispositivo.
+        <i>Não sabe qual seu código de IMEI?</i> Digite *#06# no teclado de seu dispositivo.
       </p>
-
     </div>
 
     <div class="input">
 
       <script src="index.js" type="module"></script>
 
-      <input type="text" name="crediCard" id="crediCard" maxlength="16" placeholder="Insira apenas os números">
+      <input type="text" class="crediCard" name="crediCard" id="crediCard" maxlength="16"
+        placeholder="Insira apenas os números">
 
-      <button name="button" id="button" type="submit">Enviar</button>
+      <button name="button" class="button" id="button" type="submit">Enviar</button>
 
-
-    </div>
-
-    <div>
-
-      <h3>
+      <h2 class="validation">
         <p id="validation"> </p>
-      </h3>
+      </h2>
 
     </div>
+  </div>
 
   </div>
 </body>

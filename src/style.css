@@ -1,15 +1,89 @@
+body{
+    margin-top: 1%;
+    margin-left: 3%;
+    padding: 2%;
+    background-image: url(img/background.png);
+    /*background-image: linear-gradient(180deg, #4941A7 ,
+     #231E58 , rgb(0, 0, 0));
+    height: 100%;
+    /*background-color: lightblue*/
 
+}
+.instructions{
+    width: 80%;
+}
 
 h1{
     font-family: Lato, Arial, sans-serif;
+    color: white;
     text-align: left;
+    font-size: 36px;
 }
 
-.input{
-    background-color: red;
+p{
+    font-family: Lato, Arial, sans-serif;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    width: 50%;
+}
+
+.Logo42{
+    align-content: center;
+    }
+
+.fullText{
+    font-size: 18px;
+}
+
+.button{
+    position: absolute;
+    
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: #4941A7 2px solid;
+
+    font-family: Lato, Arial, sans-serif;
+    font-size: 70%;
+    box-shadow: 1px 1px 5px #FFFFFF;
+    background-color: #FFFFFF ;
+    
+    padding: 0;
+    margin: 5px;
+    margin-top: 55px;
+
+    
+}
+
+.crediCard{
+    position: absolute;
+       
+    height: 40px;
+    width: 170px;
+    border: 2px solid black;
+
+    font-family: Lato, Arial, sans-serif;
+    font-size: 70%;
+    box-shadow: 1px 1px 10px #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    
+    padding: 0;
+    margin: 5px;
+    }
+
+.validation{
+    margin-left: 30%;
+
+}
+
+
+/*.input{
+    border: red 1px solid;
     margin: 1px solid black;
 }
 
 .instructions{
-    background-color: green;
-}
+    border: green 1px solid;
+}*/

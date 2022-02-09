@@ -49,12 +49,13 @@ Estamos recebendo um número alarmante de denúncias de comunicadores roubados e
 
 
 ![Página inicial](https://github.com/Brulibra/SAP007-card-validation/blob/main/src/img/Origem.png)
-
+Página inicial
 
 ![Inserção de nº válido](https://github.com/Brulibra/SAP007-card-validation/blob/main/src/img/N%C3%BAmero%20V%C3%A1lido.png)
-
+Processo após inserir número válido
 
 ![Inserção de nº inválido](https://github.com/Brulibra/SAP007-card-validation/blob/main/src/img/N%C3%BAmero%20Inv%C3%A1lido.png)
+Processo após inserir número inválido
 
 ## Autora
 
