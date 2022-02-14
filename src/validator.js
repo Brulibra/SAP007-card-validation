@@ -44,14 +44,7 @@ const validator = {
    },
    maskify: function (creditCardNumber) {
 
-      //guardar string numa variável
-      let maskingNumbers = creditCardNumber
-
-      for (let i = 0; i < maskingNumbers; i++) {
-         let maskOnScreen = maskingNumbers.replace(/\d(?=\d{4})/g, "#") //parâmetros "/\d(?=\d{4})/g"
-         return maskOnScreen
-      }
-      return
+      return creditCardNumber.replace(/\d(?=\d{4})/g, "#") //parâmetros "/\d(?=\d{4})/g"
 
    }
 }

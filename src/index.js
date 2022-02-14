@@ -5,9 +5,9 @@ const button = document.getElementById("button"); //variável do botão para gua
 
 function algoritimoLuhn() {
 
-    let creditCardNumber = document.getElementById("crediCard").value //crediCard busca a string inserida pelo usuário
-    let callingValidator = validator.isValid(creditCardNumber)
-    let callingMaskify = validator.maskify(creditCardNumber)
+    const creditCardNumber = document.getElementById("crediCard").value //crediCard busca a string inserida pelo usuário
+    const callingValidator = validator.isValid(creditCardNumber)
+    const callingMaskify = validator.maskify(creditCardNumber)
 
     let validationOnScreen = document.getElementById("validation")
         if (callingValidator === true) {
