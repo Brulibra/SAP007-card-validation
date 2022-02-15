@@ -1,4 +1,4 @@
-body{
+body {
     margin-top: 1%;
     margin-left: 3%;
     padding: 2%;
@@ -7,92 +7,88 @@ body{
     /*background-image: linear-gradient(180deg, #4941A7 ,
      #231E58 , rgb(0, 0, 0));
     height: 100%;
-    /*background-color: lightblue*/
-
+    NOTA: Manter backgounds alternativos para correções futuras*/
 }
-.instructions{
+
+.instructions {
     display: inline-block;
     width: 50%;
-    
 }
 
-.input{
+.input {
     display: inline-block;
     position: absolute;
-
     top: 40%;
     bottom: 50%;
     left: 51%;
     margin: 10px;
     border: 15px;
     margin-left: 60px;
-    
 }
 
-h1{
+h1 {
     font-family: Lato, Arial, sans-serif;
     color: white;
     text-align: left;
     font-size: 36px;
 }
 
-p{
+p {
     font-family: Lato, Arial, sans-serif;
     color: white;
     text-align: justify;
     font-size: 20px;
-    }
+}
 
-.logo42{
+.logo42 {
     align-content: center;
-    }
+}
 
-.fullText{
+.fullText {
     font-size: 18px;
 }
 
-.button{
+.footer{
+    text-align: center;
+}
+
+.link{
+    color: white;
+}
+
+.button {
     position: absolute;
-    
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     border: #4941A7 2px solid;
-
     font-family: Lato, Arial, sans-serif;
-    font-size: 70%;
+    font-size: 90%;
     box-shadow: 1px 1px 5px #FFFFFF;
-    background-color: #FFFFFF ;
-    
+    background-color: #FFFFFF;
     padding: 0;
     margin: 5px;
     margin-top: 65px;
-
-    
 }
 
-.crediCard{
+.crediCard {
     position: absolute;
-       
     height: 40px;
-    width: 170px;
+    width: 250px;
     border: 2px solid black;
-
     font-family: Lato, Arial, sans-serif;
-    font-size: 70%;
+    font-size: 200%;
     box-shadow: 1px 1px 10px #FFFFFF;
     text-align: center;
     font-size: 12px;
-    
     padding: 0;
     margin: 5px;
-    }
+}
 
-.validation{
+.validation {
     position: relative;
     margin-top: 130px;
     margin-left: 10%;
     margin-right: 10%;
     text-align: left;
-
 }
