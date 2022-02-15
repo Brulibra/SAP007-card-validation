@@ -2,60 +2,65 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
+    <meta charset="utf-8" />
 
-  <title>Verificador de Celulares Galácticos</title>
-  <link rel="stylesheet" href="style.css" />
+    <title>Verificador de Celulares Galácticos</title>
+    <link rel="stylesheet" href="style.css" />
 
 </head>
 
 
 <body>
-  <div id="root">
+    <div id="root">
 
-    <div class="Logo42">
+        <header class="logo42">
 
-      <img src="img/Logo42.png" height="20%" width="20%">
+            <img src="img/logo42.png" height="20%" width="20%">
+        </header>
+
+        <main class="instructions">
+            <h1>Atenção Viajante!</h1>
+
+            <p class="textInstructions">Se certifique de que seu comunicador é um dispositivo autorizado!
+                <br>Insira o código IMEI no validador ao lado.
+            </p>
+            <p class="fullText">
+                Estamos recebendo um número alarmante de denúncias de comunicadores roubados e/ou não autorizados
+                circulando em nossa galáxia, para prosseguir tranquilamente com sua viajem, verifique seu dispositivo.
+            </p>
+
+            <p class="noteTower42">
+                <b><u>A Tower 42 informa:</u></b> em caso de furto ou dispositivo inválido, entre em contato com nossa
+                central.
+            </p>
+
+            <p class="infoIMEI">
+                <i>Não sabe qual seu código de IMEI?</i> Digite *#06# no teclado de seu dispositivo.
+            </p>
+        </main>
+
+        <div class="input">
+
+            <input type="text" class="crediCard" name="crediCard" id="crediCard" maxlength="16"
+                placeholder="Insira apenas os números">
+
+            <button name="button" class="button" id="button" type="submit">Enviar</button>
+
+            <h2>
+                <p class="validation" id="validation"> </p>
+            </h2>
+
+        </div>
+
+        <footer>
+            <p class="footer">Projeto desenvolvido por Bruna de Paula<br>Laboratória SAP 007<br>
+                <a class="link" href="https://www.linkedin.com/in/brunadpaula/">Linkedin</a> <a class="link"
+                    href="https://github.com/Brulibra">GitHub</a>
+            </p>
+        </footer>
+
+        <script src="index.js" type="module"></script>
     </div>
-
-    <div class="instructions">
-      <h1>Atenção Viajante!</h1>
-
-      <p class="textInstructions">Se certifique de que seu comunicador é um dispositivo autorizado!
-        <br>Insira o código IMEI no validador ao lado.<br>
-      </p>
-      <p class="fullText">
-        Estamos recebendo um número alarmante de denúncias de comunicadores roubados
-        e/ou não autorizados circulando em nossa galáxia,
-        para prosseguir tranquilamente com sua viajem,
-        verifique seu dispositivo.
-      </p>
-
-      <p class="noteTower42">
-        <b><u>A Tower 42 informa:</u></b> em caso de furto ou dispositivo inválido, entre em contato com nossa central.
-      </p>
-
-      <p class="infoIMEI">
-        <i>Não sabe qual seu código de IMEI?</i> Digite *#06# no teclado de seu dispositivo.
-      </p>
-    </div>
-
-    <div class="input">
-
-      <script src="index.js" type="module"></script>
-
-      <input type="text" class="crediCard" name="crediCard" id="crediCard" maxlength="16"
-        placeholder="Insira apenas os números">
-
-      <button name="button" class="button" id="button" type="submit">Enviar</button>
-
-      <h2>
-        <p class="validation" id="validation"> </p>
-      </h2>
-
-    </div>
-  </div>
-
 </body>
 
 </html>
