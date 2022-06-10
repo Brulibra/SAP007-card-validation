@@ -1,4 +1,5 @@
 # Verificador de Celulares Galácticos
+🚧*Aguardando Refatoração*🚧
 
 ## Índice
 
