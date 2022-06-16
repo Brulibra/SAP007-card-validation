@@ -1,18 +1,95 @@
-body {
-    margin-top: 1%;
-    margin-left: 3%;
-    padding: 2%;
-    background-image: url(img/background.png);
-    /*background-image: linear-gradient(180deg, #4941A7, black );*/
-    /*background-image: linear-gradient(180deg, #4941A7 ,
-     #231E58 , rgb(0, 0, 0));
-    height: 100%;
-    NOTA: Manter backgounds alternativos para correções futuras*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  background-image: url(img/background.png);
+  /* background-image: linear-gradient(180deg, #4941A7, black ); */
+  /* background-image: linear-gradient(180deg, #4941A7 ,
+  #231E58 , rgb(0, 0, 0)); */
+  /* NOTA: Manter backgounds alternativos para correções futuras */
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse
+}
+
+h1, p, .crediCard, .button, .link {
+  font-family: Lato, Arial, sans-serif;
+  color: white;
+}
+
+p{
+  text-align: justify;
+}
+
+.logo42 {
+  margin: 5%;
+  justify-content: space-between;
+  align-content: flex-end;
+}
+
+.logo {
+  height: 30%;
+  width: 30%
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.aside{
+  padding: 2%;
+  border-radius: 15px;
+  border: 5px black solid;
+  background-image: linear-gradient(180deg, #4941A7, #2e2870 );
+}
+
+.button {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: #4941A7 2px solid;
+  color: black;
+  font-size: 90%;
+  box-shadow: 1px 1px 5px #FFFFFF;
+  background-color: #FFFFFF;
+}
+
+.crediCard {
+  position: absolute;
+  height: 40px;
+  width: 250px;
+  border: 2px solid black;
+  font-size: 200%;
+  box-shadow: 1px 1px 10px #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+}
+
+.validation {
+  position: relative;
+  text-align: left;
+}
+
+.footer{
+    text-align: center;
+}
+
+/*
 .instructions {
-    display: inline-block;
-    width: 50%;
+  display: inline-block;
+  width: 50%;
 }
 
 .input {
@@ -27,68 +104,24 @@ body {
 }
 
 h1 {
-    font-family: Lato, Arial, sans-serif;
-    color: white;
-    text-align: left;
-    font-size: 36px;
+  color: white;
+  text-align: left;
+  font-size: 36px;
 }
 
 p {
-    font-family: Lato, Arial, sans-serif;
-    color: white;
-    text-align: justify;
+  color: white;
+  text-align: justify;
     font-size: 20px;
-}
+  }
 
-.logo42 {
+  .logo42 {
     align-content: center;
-}
+  }
 
-.fullText {
+  .fullText {
     font-size: 18px;
-}
+  }
 
-.footer{
-    text-align: center;
-}
+  */
 
-.link{
-    color: white;
-}
-
-.button {
-    position: absolute;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    border: #4941A7 2px solid;
-    font-family: Lato, Arial, sans-serif;
-    font-size: 90%;
-    box-shadow: 1px 1px 5px #FFFFFF;
-    background-color: #FFFFFF;
-    padding: 0;
-    margin: 5px;
-    margin-top: 65px;
-}
-
-.crediCard {
-    position: absolute;
-    height: 40px;
-    width: 250px;
-    border: 2px solid black;
-    font-family: Lato, Arial, sans-serif;
-    font-size: 200%;
-    box-shadow: 1px 1px 10px #FFFFFF;
-    text-align: center;
-    font-size: 12px;
-    padding: 0;
-    margin: 5px;
-}
-
-.validation {
-    position: relative;
-    margin-top: 130px;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: left;
-}
