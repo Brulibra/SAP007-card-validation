@@ -14,7 +14,7 @@ function validatorLogic() {
         validationOnScreen.textContent = "Comunicador nº " + callingMaskify + ".  Continue sua viagem tranquilo Mochileiro"
 
     } else {
-        validationOnScreen.textContent = "Comunicador não encontrado! Verifique novamente suas informações"
+        validationOnScreen.textContent = "Comunicador não encontrado! A Tower 42 informa: em caso de furto ou dispositivo inválido, entre em contato com nossa central para checar suas informações."
     }
 }
 

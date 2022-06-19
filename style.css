@@ -1,94 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    margin-top: 1%;
-    margin-left: 3%;
-    padding: 2%;
-    background-image: url(img/background.png);
-    /*background-image: linear-gradient(180deg, #4941A7, black );*/
-    /*background-image: linear-gradient(180deg, #4941A7 ,
-     #231E58 , rgb(0, 0, 0));
-    height: 100%;
-    NOTA: Manter backgounds alternativos para correções futuras*/
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  background-image: url(img/background.png);
 }
 
-.instructions {
-    display: inline-block;
-    width: 50%;
+header {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-.input {
-    display: inline-block;
-    position: absolute;
-    top: 40%;
-    bottom: 50%;
-    left: 51%;
-    margin: 10px;
-    border: 15px;
-    margin-left: 60px;
+h1, h2, p, .crediCard, .button, .link {
+  font-size: 20px;
+  font-family: Lato, Arial, sans-serif;
+  color: white;
+  text-decoration: none;
 }
 
 h1 {
-    font-family: Lato, Arial, sans-serif;
-    color: white;
-    text-align: left;
-    font-size: 36px;
+  font-size: 40px;
+  padding-bottom: 1%;
+  align-self: center;
 }
 
 p {
-    font-family: Lato, Arial, sans-serif;
-    color: white;
-    text-align: justify;
-    font-size: 20px;
+  text-align: justify;
+}
+
+.main-aside, .input-button {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  align-items: center;
 }
 
 .logo42 {
-    align-content: center;
+  margin: 5%;
+  justify-content: space-between;
+  align-content: space-between;
 }
 
-.fullText {
-    font-size: 18px;
+.logo {
+  height: 30%;
+  width: 30%
 }
 
-.footer{
-    text-align: center;
+
+.main-content, .input-info {
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+  width: fit-content;
 }
 
-.link{
-    color: white;
+.button, .crediCard, .validation, .footer {
+  margin: 0.5%;
+  text-align: center;
+}
+
+.aside {
+  align-self: flex-start;
+  flex-basis: 100vh;
+  padding: 2%;
+  border-radius: 15px;
+  border: 5px black solid;
+  background-image: linear-gradient(180deg, #4941A7, #2e2870);
+  height: fit-content;
 }
 
 .button {
-    position: absolute;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    border: #4941A7 2px solid;
-    font-family: Lato, Arial, sans-serif;
-    font-size: 90%;
-    box-shadow: 1px 1px 5px #FFFFFF;
-    background-color: #FFFFFF;
-    padding: 0;
-    margin: 5px;
-    margin-top: 65px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: #4941A7 2px solid;
+  color: black;
+  font-size: 90%;
+  box-shadow: 1px 1px 5px #FFFFFF;
 }
 
 .crediCard {
-    position: absolute;
-    height: 40px;
-    width: 250px;
-    border: 2px solid black;
-    font-family: Lato, Arial, sans-serif;
-    font-size: 200%;
-    box-shadow: 1px 1px 10px #FFFFFF;
-    text-align: center;
-    font-size: 12px;
-    padding: 0;
-    margin: 5px;
+  margin-right: 3%;
+  height: 40px;
+  width: 250px;
+  color: black;
+  border: 2px solid black;
+  box-shadow: 1px 1px 10px #FFFFFF;
+  text-align: center;
+  font-size: 12px;
 }
 
 .validation {
-    position: relative;
-    margin-top: 130px;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: left;
+  align-self: center;
+  align-items: center;
+  align-content: center;
 }
+
+.all-stars {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.all-stars img {
+  animation: stars 5s linear infinite;
+  opacity: 0;
+}
+
+
+@keyframes stars {
+  0% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+
+  10%{
+    opacity: 0.7;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+}
+
+  .all-stars img:nth-child(1) {
+    animation-delay: 1s;
+    width: 15px;
+    height: auto;
+  }
+
+  .all-stars img:nth-child(2) {
+    animation-delay: 4s;
+    width: 15px;
+    height: auto;
+  }
+
+  .all-stars img:nth-child(3) {
+    animation-delay: 3s;
+    width: 15px;
+    height: auto;
+  }
+
+  .all-stars img:nth-child(4) {
+    animation-delay: 1s;
+    width: 15px;
+    height: auto;
+  }
+
+  .all-stars img:nth-child(5) {
+    animation-delay: 2.5s;
+    width: 15px;
+    height: auto;
+  }
+
+  .all-stars img:nth-child(6) {
+    animation-delay: 0.5s;
+    width: 15px;
+    height: auto;
+  }
+
+  .all-stars img:nth-child(7) {
+    animation-delay: 1s;
+    width: 15px;
+    height: auto;
+  }
+
