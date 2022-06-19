@@ -1,5 +1,11 @@
 # Verificador de Celulares Galácticos
-🚧*Aguardando Refatoração*🚧
+
+##
+
+# Acesse o projeto [Aqui✨](https://brulibra.github.io/SAP007-card-validation/)
+
+##
+
 
 ## Índice
 
@@ -12,7 +18,7 @@
 - [3. Autora](#autora)
 
 ## Sobre o projeto
-O **Verificador de Celulares Galácticos** foi desenvolvido como parte do *bootcamp* 007 da Laboratória. 
+O **Verificador de Celulares Galácticos** foi desenvolvido como parte do *bootcamp* 007 da Laboratória.
 
 O objetivo do projeto era a aplicação do **Algoritmo de Luhn** para validar os números IMEI inseridos pelo usuário.
 ### O Algoritmo de Luhn
