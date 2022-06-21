@@ -1,11 +1,6 @@
 # Verificador de Celulares Galácticos
 
-##
-
-# Acesse o projeto [Aqui✨](https://brulibra.github.io/SAP007-card-validation/)
-
-##
-
+> Acesse o projeto [Aqui✨](https://brulibra.github.io/SAP007-card-validation/)
 
 ## Índice
 
@@ -63,6 +58,8 @@ Processo após inserir número válido
 
 ![Inserção de nº inválido](https://github.com/Brulibra/SAP007-card-validation/blob/main/src/img/N%C3%BAmero%20Inv%C3%A1lido.png)
 Processo após inserir número inválido
+
+> Acesse o projeto [Aqui✨](https://brulibra.github.io/SAP007-card-validation/)
 
 ## Autora
 
