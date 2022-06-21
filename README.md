@@ -68,6 +68,6 @@ Processo após inserir número inválido
 
 Bruna de Paula
 
-[GitHub](https://github.com/Brulibra)
+<!-- [GitHub](https://github.com/Brulibra) -->
 
 [Linkedin](https://www.linkedin.com/in/brunadpaula/)
